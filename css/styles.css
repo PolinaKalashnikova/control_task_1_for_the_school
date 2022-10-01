@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, serif;
+}
+
+.main {
+    background-image: url("../images/bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    padding: 35px 0 33px 0;
+    border-bottom: 1px solid #a381df;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-right: 281px;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.menu-item {
+    margin-right: 50px;
+    display: inline-block;
+}
+
+.menu-item a {
+    font-size: 16px;
+    color: rgb(237, 224, 248);
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.layout {
+    padding: 150px 0 205px 0;
+}
+
+.layout-title {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+    text-align: left;
+    max-width: 452px;
+}
+
+.layout-image {
+    margin-top: 80px;
+    margin-right: 14px;
+    vertical-align: bottom
+}
+
+.layout-text {
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: left;
+}
+
+.layout-actions {
+    margin-top: 101px;
+}
+
+button {
+    width: 220px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 3.438;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+}
+
+button.button-white-transparent {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.skills {
+    background-color: white;
+    padding: 140px 0;
+}
+
+.skills-title {
+    font-size: 35px;
+    color: rgb(139, 103, 214);
+    font-weight: bold;
+    line-height: 1.571;
+    margin-bottom: 68px;
+}
+
+.skills-image {
+    vertical-align: bottom
+}
+
+.items {
+    margin-bottom: 15px;
+}
+
+.link {
+    background-image: url("../images/bg2.png");
+    background-position: center;
+    background-size: cover;
+    padding-top: 140px;
+}
+
+.link-container {
+    width: 996px;
+    background: white;
+    padding: 60px 0 44px 0;
+    margin: 0 auto 140px auto;
+    border-radius: 20px;
+}
+
+.link-title {
+    font-size: 35px;
+    color: rgb(139, 103, 214);
+    font-weight: bold;
+    line-height: 1.571;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.link-text-one {
+    font-size: 16px;
+    color: rgb(49, 27, 94);
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto 30px auto;
+    max-width: 593px;
+}
+
+.link-text-one span {
+    font-weight: bold;
+}
+
+.link-text-two {
+    font-size: 16px;
+    color: rgb(49, 27, 94);
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto 40px auto;
+    max-width: 588px;
+}
+
+.link-action {
+text-align: center;
+}
+
+button {
+    width: 220px;
+    font-size: 16px;
+    color: rgb(177, 128, 228);
+    font-weight: bold;
+    line-height: 3.438;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+}
+
+.button-purple-transparent {
+    background-color: transparent;
+    border: 2px solid rgb(177, 128, 228);
+}
+
+.footer{
+    border-top: 1px solid #a381df;
+    text-align: center;
+}
+
+.footer-logo{
+    margin: 46px auto;
+}
